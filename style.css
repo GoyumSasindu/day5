@@ -1,1 +1,22 @@
-style.css
+.image-grid {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.image-grid td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 33.33%; 
+}
+
+.image-grid img {
+    width: 100%;
+    max-width: 200px; 
+    height: auto;
+    display: block;
+    margin: auto;
+}
+#icet{
+    background-color: aqua;
+}
